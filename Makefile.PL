@@ -15,26 +15,31 @@ my %WriteMakefileArgs = (
     "Class::C3" => 0,
     "DBIx::Class::Core" => 0,
     "DBIx::Class::Schema" => 0,
+    "English" => 0,
     "MRO::Compat" => 0,
     "Test::Fixture::DBIC::Schema" => 0,
-    "Test::More" => 0,
-    "base" => 0
+    "Test::More" => 0
   },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
   },
   "DISTNAME" => "DBICx-Backend-Move",
-  "EXE_FILES" => [],
+  "EXE_FILES" => [
+    "bin/dbicx-backend-move"
+  ],
   "LICENSE" => "perl",
   "NAME" => "DBICx::Backend::Move",
   "PREREQ_PM" => {
+    "App::Cmd::Simple" => 0,
+    "DBI" => 0,
     "DBICx::Deploy" => 0,
     "Module::Load" => 0,
     "Moo" => 0,
+    "base" => 0,
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.000001",
+  "VERSION" => "1.000002",
   "test" => {
     "TESTS" => "t/*.t"
   }

@@ -6,10 +6,10 @@ build_requires:
   Class::C3: 0
   DBIx::Class::Core: 0
   DBIx::Class::Schema: 0
+  English: 0
   MRO::Compat: 0
   Test::Fixture::DBIC::Schema: 0
   Test::More: 0
-  base: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
@@ -20,10 +20,13 @@ meta-spec:
   version: 1.4
 name: DBICx-Backend-Move
 requires:
+  App::Cmd::Simple: 0
+  DBI: 0
   DBICx::Deploy: 0
   Module::Load: 0
   Moo: 0
+  base: 0
   perl: 5.010
   strict: 0
   warnings: 0
-version: 1.000001
+version: 1.000002
