@@ -18,6 +18,7 @@ t/fixtures/testdb.yml
 t/from.sqlite
 t/lib/DBICx/Backend/Move/Test/Schema.pm
 t/lib/DBICx/Backend/Move/Test/Schema/Result/Owner.pm
+t/lib/DBICx/Backend/Move/Test/Schema/Result/ViewOwner.pm
 t/lib/DBICx/Backend/Move/Test/Schema/TestTools.pm
 t/pod.t
 t/to.sqlite

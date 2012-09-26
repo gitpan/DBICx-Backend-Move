@@ -18,7 +18,8 @@ my %WriteMakefileArgs = (
     "English" => 0,
     "MRO::Compat" => 0,
     "Test::Fixture::DBIC::Schema" => 0,
-    "Test::More" => 0
+    "Test::More" => 0,
+    "parent" => 0
   },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -39,7 +40,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.000003",
+  "VERSION" => "1.000004",
   "test" => {
     "TESTS" => "t/*.t"
   }

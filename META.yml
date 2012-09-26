@@ -10,6 +10,7 @@ build_requires:
   MRO::Compat: 0
   Test::Fixture::DBIC::Schema: 0
   Test::More: 0
+  parent: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
@@ -29,4 +30,4 @@ requires:
   perl: 5.010
   strict: 0
   warnings: 0
-version: 1.000003
+version: 1.000004
