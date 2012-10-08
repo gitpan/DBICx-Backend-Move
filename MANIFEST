@@ -17,6 +17,7 @@ t/02-app-dbicx-backend-move.t
 t/fixtures/testdb.yml
 t/from.sqlite
 t/lib/DBICx/Backend/Move/Test/Schema.pm
+t/lib/DBICx/Backend/Move/Test/Schema/Result/Host.pm
 t/lib/DBICx/Backend/Move/Test/Schema/Result/Owner.pm
 t/lib/DBICx/Backend/Move/Test/Schema/Result/ViewOwner.pm
 t/lib/DBICx/Backend/Move/Test/Schema/TestTools.pm
