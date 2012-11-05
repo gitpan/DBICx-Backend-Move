@@ -14,7 +14,10 @@ my %WriteMakefileArgs = (
   "BUILD_REQUIRES" => {
     "Class::C3" => 0,
     "DBIx::Class::Core" => 0,
+    "DBIx::Class::FilterColumn" => 0,
+    "DBIx::Class::InflateColumn::DateTime" => 0,
     "DBIx::Class::Schema" => 0,
+    "DBIx::Class::TimeStamp" => 0,
     "English" => 0,
     "MRO::Compat" => 0,
     "Test::Fixture::DBIC::Schema" => 0,
@@ -40,7 +43,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.000009",
+  "VERSION" => "1.000010",
   "test" => {
     "TESTS" => "t/*.t"
   }
